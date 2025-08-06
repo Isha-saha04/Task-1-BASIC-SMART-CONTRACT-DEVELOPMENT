@@ -1,4 +1,12 @@
-# Task 3 – DeFi Lending and Borrowing DApp
+## Task 1: Simple Smart Contract – Token Transfer System
+## Description:
+A basic smart contract written in Solidity that enables token transfers between Ethereum accounts.
+
+Deliverables:
+
+Solidity source code
+
+Deployment instructions on Ethereum testnet (e.g., Remix + MetaMask)
 
 ## Description
 This project is part of the CodTech Blockchain Internship Task 3. It involves building a decentralized finance (DeFi) application that allows users to lend and borrow ERC-20 tokens with dynamically calculated interest.
@@ -43,12 +51,3 @@ This project is part of the CodTech Blockchain Internship Task 3. It involves bu
 
 - Click *"Run", then open the **Preview* or *Open in new tab* to interact with the app.
 
-## Screenshots
-
-### 🖼 DApp UI with Wallet Button
-![Frontend Screenshot](screenshot-frontend.png)
-
-### 🦊 MetaMask Connected Confirmation
-![MetaMask Connected](screenshot-connected.png)
-
-> ✅ Note: This project uses local deployment and runs inside Replit using serve. Wallet connected using MetaMask and Ethers.js from index.html.
