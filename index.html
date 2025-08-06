@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head><title>DeFi Lending</title></head>
+  <body>
+    <h2>DeFi Lending App</h2>
+    <button onclick="connectWallet()">Connect Wallet</button>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+    <script>
+      async function connectWallet() {
+        if (window.ethereum) {
+          await window.ethereum.request({ method: 'eth_requestAccounts' });
+          const provider = new ethers.BrowserProvider(window.ethereum);
+          const signer = await provider.getSigner();
+          alert("Wallet Connected: " + await signer.getAddress());
+        } else {
+          alert("Install MetaMask");
+        }
+      }
+    </script>
+  </body>
+</html>
